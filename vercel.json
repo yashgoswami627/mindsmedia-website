@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/assets/:path*", "destination": "https://cdn.jsdelivr.net/gh/yashgoswami627/mindsmedia-website@06716cf1dfff188c3eefaecf23d248c5e6e4dc32/assets/:path*" },
+    { "source": "/", "destination": "/api/index" }
+  ]
+}
