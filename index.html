@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Minds Media — Creative Marketing Agency in India</title>
+<meta name="description" content="Minds Media is a creative marketing agency blending consumer psychology with scroll-stopping creatives and performance ads. Performance marketing, social media, ad creatives, reels, branding and funnels.">
+<meta name="theme-color" content="#0B0B0B">
+<meta property="og:title" content="Minds Media — We Understand Minds">
+<meta property="og:description" content="Creative + performance marketing that gets your brand noticed, remembered and bought.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/logo.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-40 -40 380 380'%3E%3Crect x='-40' y='-40' width='380' height='380' rx='70' fill='%23000'/%3E%3Cg stroke='%23fff' stroke-width='26' stroke-linecap='round'%3E%3Cpath d='M9 92 L9 297M9 92 L107 189M7 5 L294 295M185 112 L292 5M292 5 L292 192'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,800&amp;family=Jost:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body { margin: 0; background: #FFFFFF; }
+a { color: #D10812; }
+a:hover { color: #9E060E; }
+.re { font-family: 'Poppins', system-ui, sans-serif; color: #0B0B0B; background: #FFFFFF; overflow-x: hidden; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 40px; box-sizing: border-box; }
+.red { color: #E10914; }
+.nav { position: sticky; top: 0; z-index: 20; background: #0B0B0B; }
+.nav-in { height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.logo img { height: 34px; width: auto; display: block; }
+.links { display: flex; gap: 32px; }
+.links a { color: #BDBDBD; text-decoration: none; font-size: 14px; font-weight: 500; letter-spacing: .04em; }
+.links a:hover { color: #FFFFFF; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 50px; padding: 0 28px; border-radius: 10px; background: #E10914; color: #FFFFFF; font-weight: 700; font-size: 15px; text-decoration: none; border: 0; cursor: pointer; font-family: inherit; position: relative; overflow: hidden; transition: transform .25s ease, box-shadow .25s ease; }
+.btn::after { content: ""; position: absolute; top: 0; left: -60%; width: 40%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent); transform: skewX(-20deg); animation: sheen 3.6s ease-in-out infinite; }
+.btn:hover { color: #FFFFFF; transform: translateY(-2px); box-shadow: 0 14px 30px rgba(225,9,20,.3); }
+.btn-dark { background: #0B0B0B; }
+.btn-dark:hover { box-shadow: 0 14px 30px rgba(0,0,0,.25); }
+.btn-out { background: transparent; color: #0B0B0B; border: 2px solid #0B0B0B; }
+.btn-out::after { display: none; }
+.btn-out:hover { color: #FFFFFF; background: #0B0B0B; box-shadow: none; }
+.hero { padding: 80px 0 90px; position: relative; overflow: hidden; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+.pre { display: inline-flex; flex-wrap: wrap; gap: 8px 14px; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #5A5A5A; }
+.pre b { color: #E10914; font-weight: 700; }
+.h1 { margin: 22px 0 0; font-weight: 800; letter-spacing: -0.04em; line-height: .9; }
+.h1 .a { display: block; font-size: clamp(38px, 5vw, 70px); animation: up .9s cubic-bezier(.2,.8,.2,1) both; }
+.h1 .b { display: block; font-size: clamp(88px, 12.5vw, 184px); color: #E10914; letter-spacing: -0.06em; animation: zoom 1.1s cubic-bezier(.2,.8,.2,1) .15s both; }
+.h1 .c { display: block; font-size: clamp(22px, 2.5vw, 34px); letter-spacing: -0.02em; line-height: 1.2; margin-top: 14px; font-weight: 700; animation: up .9s cubic-bezier(.2,.8,.2,1) .35s both; }
+.hl { background: #0B0B0B; color: #FFFFFF; padding: 0 .25em; }
+.lead { font-size: 18px; line-height: 1.65; color: #4A4A4A; max-width: 520px; margin: 24px 0 32px; }
+.ctas { display: flex; flex-wrap: wrap; gap: 14px; }
+.proof { display: flex; align-items: center; gap: 14px; margin-top: 34px; font-size: 14px; color: #5A5A5A; }
+.thumbs { display: flex; }
+.thumbs img { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; border: 2px solid #FFFFFF; margin-left: -10px; box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+.thumbs img:first-child { margin-left: 0; }
+.visual { position: relative; height: 560px; }
+.mark { position: absolute; left: 50%; top: 50%; width: 380px; height: 380px; transform: translate(-50%, -50%); }
+.mark path { fill: none; stroke-width: 11; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+.ring { position: absolute; left: 50%; top: 50%; width: 500px; height: 500px; margin: -250px 0 0 -250px; border-radius: 50%; border: 1.5px dashed #D9D9D9; animation: spin 40s linear infinite; }
+.ring::before { content: ""; position: absolute; top: -7px; left: 50%; width: 14px; height: 14px; border-radius: 50%; background: #E10914; }
+.post { position: absolute; width: 168px; border-radius: 14px; overflow: hidden; box-shadow: 0 24px 50px rgba(0,0,0,.22); background: #FFFFFF; animation: float 6s ease-in-out infinite; }
+.post img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; }
+.p1 { left: 0; top: 30px; --r: -9deg; transform: rotate(-9deg); }
+.p2 { right: 0; top: 0; --r: 7deg; transform: rotate(7deg); animation-delay: -2s; }
+.p3 { right: 30px; bottom: 0; --r: -5deg; transform: rotate(-5deg); animation-delay: -4s; }
+.p4 { left: 40px; bottom: 20px; --r: 6deg; transform: rotate(6deg); animation-delay: -3s; width: 140px; }
+.band { background: #E10914; color: #FFFFFF; padding: 20px 0; overflow: hidden; transform: rotate(-1.5deg); margin: 0 -20px; position: relative; z-index: 2; }
+.band.blk { background: #0B0B0B; transform: rotate(1.5deg); margin-top: -12px; z-index: 1; }
+.track { display: flex; width: max-content; animation: slide 30s linear infinite; }
+.track.rev { animation-direction: reverse; }
+.mq { display: flex; align-items: center; gap: 30px; padding-right: 30px; white-space: nowrap; font-weight: 800; font-size: 34px; letter-spacing: -0.02em; text-transform: uppercase; }
+.mq i { width: 14px; height: 14px; flex: none; background: #FFFFFF; transform: rotate(45deg); display: block; }
+.blk .mq i { background: #E10914; }
+.blk .mq { font-size: 26px; font-weight: 600; color: #F2F2F2; }
+.sec { padding: 120px 0; }
+.dark { background: #0B0B0B; color: #FFFFFF; }
+.kick { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #E10914; margin: 0 0 16px; }
+.kick::before { content: ""; width: 28px; height: 3px; background: #E10914; }
+.h2 { font-weight: 800; font-size: clamp(36px, 5vw, 70px); line-height: 1.02; letter-spacing: -0.04em; margin: 0; max-width: 900px; }
+.head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 54px; }
+.note { max-width: 400px; font-size: 17px; line-height: 1.6; color: #5A5A5A; margin: 0; }
+.dark .note { color: #B5B5B5; }
+.trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.tcard { background: #151515; border: 1px solid #262626; border-radius: 22px; overflow: hidden; transition: transform .35s ease, border-color .35s ease; }
+.tcard:hover { transform: translateY(-8px); border-color: #E10914; }
+.tcard img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 62%; display: block; transition: transform .6s ease; }
+.tcard:hover img { transform: scale(1.06); }
+.tbody { padding: 26px 26px 30px; }
+.tbody small { display: block; font-size: 14px; color: #9A9A9A; font-weight: 500; letter-spacing: .04em; }
+.tbody h3 { margin: 6px 0 0; font-size: 30px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
+.tbody h3 span { color: #E10914; background-image: linear-gradient(#E10914, #E10914); background-size: 0 3px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size .5s ease; }
+.tcard:hover .tbody h3 span { background-size: 100% 3px; }
+.svc { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.sc { border: 1.5px solid #E6E6E6; border-radius: 20px; padding: 30px 26px; min-height: 250px; display: flex; flex-direction: column; background: #FFFFFF; transition: background .3s ease, color .3s ease, border-color .3s ease, transform .3s ease; position: relative; overflow: hidden; }
+.sc::after { content: ""; position: absolute; right: -40px; bottom: -40px; width: 120px; height: 120px; border-radius: 50%; border: 18px solid #F4F4F4; transition: border-color .3s ease; }
+.sc > * { position: relative; z-index: 1; }
+.sc:hover { background: #E10914; color: #FFFFFF; border-color: #E10914; transform: translateY(-6px); }
+.sc:hover::after { border-color: rgba(255,255,255,.14); }
+.sc:hover p { color: #FFE3E4; }
+.sc:hover .sc-ico { background: #FFFFFF; color: #E10914; }
+.sc-ico { width: 52px; height: 52px; border-radius: 14px; background: #0B0B0B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .3s ease, color .3s ease; }
+.sc h3 { margin: 26px 0 8px; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+.sc p { margin: 0; color: #5A5A5A; font-size: 15px; line-height: 1.55; transition: color .3s ease; position: relative; z-index: 1; }
+.sc.hot { background: #0B0B0B; color: #FFFFFF; border-color: #0B0B0B; }
+.sc.hot p { color: #BDBDBD; }
+.sc.hot .sc-ico { background: #E10914; }
+.sc.hot::after { border-color: #1C1C1C; }
+.reel { overflow: hidden; padding: 10px 0; }
+.reel + .reel { margin-top: 18px; }
+.rtrack { display: flex; gap: 18px; width: max-content; animation: slide 50s linear infinite; }
+.reel.r2 .rtrack { animation-direction: reverse; animation-duration: 56s; }
+.reel:hover .rtrack { animation-play-state: paused; }
+.ig { width: 230px; flex: none; border-radius: 16px; overflow: hidden; background: #151515; transition: transform .3s ease; }
+.ig:hover { transform: scale(1.04) rotate(-1deg); }
+.ig img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; }
+.steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; counter-reset: s; }
+.st { border-radius: 22px; padding: 32px 28px 34px; background: #F5F5F5; position: relative; overflow: hidden; transition: background .3s ease, color .3s ease; }
+.st:hover { background: #0B0B0B; color: #FFFFFF; }
+.st:hover p { color: #BDBDBD; }
+.st-n { font-size: 90px; font-weight: 900; line-height: .9; letter-spacing: -0.06em; color: #E10914; }
+.st h3 { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; margin: 22px 0 8px; }
+.st p { margin: 0; color: #5A5A5A; font-size: 15px; line-height: 1.6; transition: color .3s ease; }
+.motto { display: flex; flex-wrap: wrap; gap: 10px 26px; justify-content: center; margin-top: 50px; font-weight: 800; font-size: clamp(22px, 3vw, 38px); letter-spacing: -0.02em; text-transform: uppercase; }
+.motto span:nth-child(2) { color: #E10914; }
+.motto em { font-style: normal; color: #CFCFCF; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.stat { border: 1px solid #262626; border-radius: 22px; padding: 34px 28px; background: #121212; }
+.stat b { display: block; font-size: clamp(44px, 5vw, 70px); font-weight: 900; letter-spacing: -0.05em; line-height: 1; }
+.stat b span { color: #FFFFFF; }
+.stat p { margin: 14px 0 0; color: #B5B5B5; font-size: 15px; }
+.inds { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 40px; }
+.inds span { border: 1px solid #333333; border-radius: 999px; padding: 12px 20px; font-size: 15px; font-weight: 500; color: #E8E8E8; transition: background .25s ease, border-color .25s ease; }
+.inds span:hover { background: #E10914; border-color: #E10914; }
+.fd { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 70px; align-items: center; }
+.fd-pic { position: relative; max-width: 470px; width: 100%; margin: 0 auto; }
+.fd-back { position: absolute; left: 0; right: 0; bottom: 0; top: 16%; background: #E10914; border-radius: 26px; transform: rotate(-5deg) translate(-18px, 14px); animation: sway 7s ease-in-out infinite; }
+.fd-stage { position: absolute; left: 0; right: 0; bottom: 0; top: 16%; border-radius: 26px; overflow: hidden; background: #0B0B0B; box-shadow: 0 30px 60px rgba(0,0,0,.28); background: #000000; }
+.fd-glow { position: absolute; left: 50%; top: 34%; width: 130%; aspect-ratio: 1 / 1; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(225,9,20,.6) 0%, rgba(225,9,20,0) 58%); animation: glowp 4s ease-in-out infinite; }
+.fd-m { position: absolute; left: 7%; top: 5%; width: 86%; height: auto; }
+.fd-m path { fill: none; stroke: #E10914; stroke-width: 15; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.6s cubic-bezier(.6,0,.2,1) forwards; }
+.fd-cut { position: relative; z-index: 1; width: 100%; height: auto; display: block; border-radius: 0 0 26px 26px; filter: drop-shadow(0 18px 30px rgba(0,0,0,.45)); transform-origin: 50% 100%; transition: transform .6s ease; }
+.fd-pic:hover .fd-cut { transform: scale(1.03); }
+@keyframes glowp { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
+.fd-tag { position: absolute; z-index: 2; left: 22px; bottom: 22px; right: 22px; background: rgba(11,11,11,.86); backdrop-filter: blur(8px); color: #FFFFFF; border-radius: 16px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.fd-tag b { display: block; font-size: 20px; letter-spacing: -0.02em; }
+.fd-tag small { display: block; color: #BDBDBD; font-size: 13px; margin-top: 2px; }
+.fd-tag svg { width: 40px; height: 40px; flex: none; }
+.fd-tag svg path { fill: none; stroke: #FFFFFF; stroke-width: 22; stroke-linecap: round; }
+.fd-badge { position: absolute; right: -36px; top: 9%; width: 128px; height: 128px; z-index: 2; }
+.fd-badge svg { width: 100%; height: 100%; animation: spin 16s linear infinite; }
+.fd-badge-core { position: absolute; inset: 36px; border-radius: 50%; background: #0B0B0B; display: flex; align-items: center; justify-content: center; }
+.fd-badge-core svg { width: 30px; height: 30px; animation: none; }
+.fd-badge-core path { fill: none; stroke: #FFFFFF; stroke-width: 26; stroke-linecap: round; }
+.fd-name { font-weight: 900; font-size: clamp(48px, 6.4vw, 96px); letter-spacing: -0.05em; line-height: .92; margin: 18px 0 0; }
+.fd-name span { color: transparent; -webkit-text-stroke: 2px #0B0B0B; }
+.fd-role { margin: 16px 0 0; font-size: 15px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #E10914; }
+.fd-bio { font-size: 17px; line-height: 1.7; color: #4A4A4A; margin: 22px 0 0; max-width: 560px; }
+.fd-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.fd-chips span { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px; border: 1.5px solid #E6E6E6; font-size: 14px; font-weight: 600; }
+.fd-chips i { width: 8px; height: 8px; border-radius: 50%; background: #E10914; display: block; }
+.fd-quote { margin: 30px 0 0; padding: 26px 28px; border-radius: 20px; background: #0B0B0B; color: #FFFFFF; position: relative; }
+.fd-quote p { margin: 0; font-size: 20px; font-weight: 600; line-height: 1.45; letter-spacing: -0.01em; }
+.fd-quote p em { font-style: normal; color: #E10914; }
+.fd-quote small { display: block; margin-top: 12px; color: #9A9A9A; font-size: 13px; }
+.fd-q { position: absolute; right: 22px; top: -22px; width: 48px; height: 48px; border-radius: 14px; background: #E10914; display: flex; align-items: center; justify-content: center; }
+@keyframes sway { 0%, 100% { transform: rotate(-5deg) translate(-18px, 14px); } 50% { transform: rotate(-3deg) translate(-12px, 10px); } }
+.vids { background: #E10914; color: #FFFFFF; }
+.vids .kick { color: #FFFFFF; }
+.vids .kick::before { background: #FFFFFF; }
+.vids .h2 .blk { color: #0B0B0B; }
+.vids .note { color: #FFE3E4; }
+.vgrid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 30px; max-width: 1040px; margin: 0 auto; }
+.vcta { display: flex; justify-content: center; }
+.vcard { background: #0B0B0B; border-radius: 24px; padding: 12px; box-shadow: 0 30px 60px rgba(0,0,0,.3); }
+.vcard video { width: 100%; aspect-ratio: 16 / 9; display: block; border-radius: 16px; background: #000000; object-fit: cover; }
+.vside { background: #0B0B0B; border-radius: 24px; padding: 30px; display: flex; flex-direction: column; }
+.vside h3 { margin: 0 0 8px; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
+.vstep { display: flex; align-items: center; gap: 14px; padding: 15px 0; border-bottom: 1px solid #222222; font-weight: 600; font-size: 16px; }
+.vstep b { color: #E10914; font-size: 12px; letter-spacing: .1em; min-width: 92px; }
+.stars { display: flex; gap: 4px; }
+.vside .btn { margin-top: 26px; }
+.cinfo { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; position: relative; }
+.cinfo a { display: inline-flex; align-items: center; gap: 8px; background: #FFFFFF; color: #0B0B0B; border-radius: 999px; padding: 11px 18px; font-size: 14px; font-weight: 600; text-decoration: none; }
+.cinfo a:hover { color: #E10914; }
+.fnote { margin: 0; font-size: 12px; color: #6A6A6A; text-align: center; }
+.cta { border-radius: 30px; background: #E10914; color: #FFFFFF; padding: 72px 60px; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 56px; position: relative; overflow: hidden; }
+.cta .bigm { position: absolute; left: -60px; bottom: -110px; width: 420px; height: 420px; opacity: .14; }
+.cta .bigm path { fill: none; stroke: #FFFFFF; stroke-width: 11; stroke-linecap: round; }
+.cta .h2 { position: relative; }
+.cta .h2 span { color: #0B0B0B; }
+.cta .note { color: #FFE3E4; margin-top: 22px; position: relative; }
+.hour { display: inline-flex; align-items: center; gap: 10px; margin-top: 28px; background: #0B0B0B; color: #FFFFFF; border-radius: 999px; padding: 10px 18px; font-size: 14px; font-weight: 600; position: relative; }
+.hour svg { animation: flip 3s ease-in-out infinite; }
+.form { background: #FFFFFF; color: #0B0B0B; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; gap: 16px; position: relative; box-shadow: 0 30px 60px rgba(0,0,0,.25); }
+.form h3 { margin: 0 0 4px; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+.field { display: flex; flex-direction: column; gap: 7px; }
+.field label { font-size: 13px; font-weight: 600; color: #333333; }
+.field input, .field select { height: 50px; border-radius: 10px; border: 1.5px solid #E1E1E1; background: #FAFAFA; color: #0B0B0B; padding: 0 16px; font-size: 15px; font-family: inherit; }
+.row2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.wa { display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: #0B0B0B; font-weight: 600; font-size: 14px; }
+.wa:hover { color: #E10914; }
+.foot { background: #0B0B0B; color: #9A9A9A; padding: 80px 0 34px; margin-top: 120px; }
+.foot-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 30px; }
+.foot-top img { width: min(460px, 100%); height: auto; display: block; }
+.foot-top p { margin: 0; max-width: 360px; font-size: 15px; line-height: 1.6; }
+.foot-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; margin-top: 54px; padding-top: 24px; border-top: 1px solid #222222; font-size: 14px; }
+.foot-row a { color: #FFFFFF; text-decoration: none; margin-left: 22px; white-space: nowrap; }
+.foot-row a:hover { color: #E10914; }
+.float-wa { position: fixed; right: 22px; bottom: 22px; z-index: 30; width: 60px; height: 60px; border-radius: 50%; background: #25D366; color: #FFFFFF; display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 30px rgba(0,0,0,.3); animation: ping 2.6s ease-in-out infinite; }
+.float-wa:hover { color: #FFFFFF; }
+@keyframes up { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: none; } }
+@keyframes zoom { from { opacity: 0; transform: scale(.7); letter-spacing: .05em; } to { opacity: 1; transform: none; } }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes float { 0%, 100% { transform: rotate(var(--r)) translateY(0); } 50% { transform: rotate(var(--r)) translateY(-14px); } }
+@keyframes slide { to { transform: translateX(-50%); } }
+@keyframes sheen { 0%, 60% { left: -60%; } 100% { left: 130%; } }
+@keyframes flip { 0%, 40% { transform: rotate(0); } 50%, 90% { transform: rotate(180deg); } 100% { transform: rotate(360deg); } }
+@keyframes ping { 0%, 100% { box-shadow: 0 0 0 0 rgba(37,211,102,.5); } 50% { box-shadow: 0 0 0 14px rgba(37,211,102,0); } }
+.fx { animation: up .9s cubic-bezier(.2,.8,.2,1) both; }
+@supports (animation-timeline: view()) {
+  .rv { animation: rvm linear both; animation-timeline: view(); animation-range: entry 0% entry 70%; }
+  @keyframes rvm { from { transform: translateY(36px); } to { transform: none; } }
+}
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr); }
+  .visual { max-width: 560px; width: 100%; margin: 10px auto 0; }
+  .svc, .steps, .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cta { grid-template-columns: minmax(0, 1fr); padding: 56px 36px; }
+  .fd { grid-template-columns: minmax(0, 1fr); gap: 64px; }
+  .vgrid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .wrap { padding: 0 18px; }
+  .links { display: none; }
+  .nav-in { height: 64px; }
+  .logo img { height: 26px; }
+  .nav .btn { min-height: 44px; padding: 0 16px; font-size: 14px; }
+  .hero { padding: 48px 0 60px; }
+  .pre { font-size: 11px; }
+  .lead { font-size: 16px; }
+  .ctas .btn { flex: 1 1 100%; }
+  .visual { height: 420px; }
+  .mark { width: 230px; height: 230px; }
+  .ring { width: 320px; height: 320px; margin: -160px 0 0 -160px; }
+  .post { width: 120px; }
+  .p4 { width: 104px; left: 10px; }
+  .p3 { right: 6px; }
+  .mq { font-size: 24px; }
+  .blk .mq { font-size: 18px; }
+  .sec { padding: 80px 0; }
+  .head { margin-bottom: 36px; }
+  .trio, .svc, .steps, .stats { grid-template-columns: minmax(0, 1fr); }
+  .sc { min-height: 0; }
+  .ig { width: 170px; }
+  .st-n { font-size: 68px; }
+  .cta { padding: 40px 20px; border-radius: 24px; gap: 30px; }
+  .form { padding: 22px; }
+  .row2 { grid-template-columns: minmax(0, 1fr); }
+  .fd-pic { max-width: 330px; }
+  .fd-back { transform: rotate(-5deg) translate(-10px, 10px); animation: none; }
+  .fd-badge { right: -14px; top: 8%; width: 96px; height: 96px; }
+  .fd-badge-core { inset: 27px; }
+  .fd-name span { -webkit-text-stroke-width: 1.5px; }
+  .fd-bio { font-size: 16px; }
+  .fd-quote p { font-size: 17px; }
+  .foot { margin-top: 80px; }
+  .foot-row span { display: flex; flex-direction: column; gap: 10px; }
+  .foot-row a { margin: 0; }
+  .motto { flex-direction: column; align-items: center; gap: 6px; }
+  .motto em { display: none; }
+  .h1 .c { font-size: 21px; }
+  .float-wa { width: 54px; height: 54px; right: 16px; bottom: 16px; }
+}
+</style>
+</head>
+<body>
+<div class="re">
+
+<header class="nav">
+<div class="wrap nav-in">
+<a class="logo" href="#top" aria-label="Minds Media home"><img src="assets/logo.webp" alt="Minds Media"></a>
+<nav class="links" aria-label="Main">
+<a href="#why">Why Us</a>
+<a href="#services">Services</a>
+<a href="#work">Our Work</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#founder">Founder</a>
+</nav>
+<a class="btn" href="https://calendly.com/yashgoswami627/30min">Book Free Call</a>
+</div>
+</header>
+
+<section class="hero" id="top">
+<div class="wrap hero-grid">
+<div>
+<p class="pre fx">Strategy First <b>·</b> Creative Second <b>·</b> Results Always</p>
+<h1 class="h1"><span class="a">We Understand</span><span class="b">Minds.</span><span class="c">So Your Brand Gets <span class="hl">Noticed,</span> Remembered &amp; Bought.</span></h1>
+<p class="lead fx" style="animation-delay: .5s">Minds Media is a creative marketing agency that blends consumer psychology with scroll-stopping creatives and performance ads — to turn attention into revenue.</p>
+<div class="ctas fx" style="animation-delay: .65s">
+<a class="btn" href="#contact">Get My Free Growth Plan <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<a class="btn btn-out" href="#work">See Our Work</a>
+</div>
+<div class="proof fx" style="animation-delay: .8s">
+<div class="thumbs"><img src="assets/r1c3.webp" alt=""><img src="assets/r2c2.webp" alt=""><img src="assets/r0c3.webp" alt=""><img src="assets/r1c4.webp" alt=""></div>
+<span>Creatives that brands across India <b style="color: #0B0B0B">post, run &amp; scale.</b></span>
+</div>
+</div>
+<div class="visual" aria-hidden="true">
+<div class="ring"></div>
+<svg class="mark" viewBox="-10 -10 320 320">
+<path pathLength="1" d="M9 92 L9 297" stroke="#0B0B0B" style="animation-delay: .3s"></path>
+<path pathLength="1" d="M9 92 L107 189" stroke="#0B0B0B" style="animation-delay: .55s"></path>
+<path pathLength="1" d="M7 5 L294 295" stroke="#0B0B0B" style="animation-delay: .8s"></path>
+<path pathLength="1" d="M185 112 L292 5" stroke="#0B0B0B" style="animation-delay: 1.05s"></path>
+<path pathLength="1" d="M292 5 L292 192" stroke="#0B0B0B" style="animation-delay: 1.3s"></path>
+</svg>
+<div class="post p1"><img src="assets/r1c3.webp" alt=""></div>
+<div class="post p2"><img src="assets/r0c3.webp" alt=""></div>
+<div class="post p3"><img src="assets/r2c2.webp" alt=""></div>
+<div class="post p4"><img src="assets/r2c1.webp" alt=""></div>
+</div>
+</div>
+</section>
+
+<div aria-hidden="true">
+<div class="band"><div class="track"><div class="mq">Performance Marketing<i></i>Social Media<i></i>Ad Creatives<i></i>Reels &amp; Video<i></i>Branding<i></i>Funnels<i></i></div><div class="mq">Performance Marketing<i></i>Social Media<i></i>Ad Creatives<i></i>Reels &amp; Video<i></i>Branding<i></i>Funnels<i></i></div></div></div>
+<div class="band blk"><div class="track rev"><div class="mq">We Don't Change Colors<i></i>We Change How People See Your Brand<i></i>Be Different<i></i>Attract Audience<i></i></div><div class="mq">We Don't Change Colors<i></i>We Change How People See Your Brand<i></i>Be Different<i></i>Attract Audience<i></i></div></div></div>
+</div>
+
+<section class="sec dark" id="why" style="margin-top: -20px; padding-top: 150px">
+<div class="wrap">
+<div class="head rv">
+<div><p class="kick">Why Minds Media</p><h2 class="h2">Marketing Isn't Magic. <span class="red">It's Psychology.</span></h2></div>
+<p class="note">Most agencies just post and pray. We study how your customers think — then build every ad, reel and page to win their mind first.</p>
+</div>
+<div class="trio">
+<article class="tcard rv"><img loading="lazy" decoding="async" src="assets/r0c0.webp" alt="Minds Media post: Marketing is"><div class="tbody"><small>Marketing is…</small><h3>Making them <span>notice you.</span></h3></div></article>
+<article class="tcard rv"><img loading="lazy" decoding="async" src="assets/r0c1.webp" alt="Minds Media post: Branding is"><div class="tbody"><small>Branding is…</small><h3>Making them <span>remember you.</span></h3></div></article>
+<article class="tcard rv"><img loading="lazy" decoding="async" src="assets/r0c2.webp" alt="Minds Media post: Sales is"><div class="tbody"><small>Sales is…</small><h3>Making them <span>choose you.</span></h3></div></article>
+</div>
+</div>
+</section>
+
+<section class="sec" id="services">
+<div class="wrap">
+<div class="head rv">
+<div><p class="kick">What We Do</p><h2 class="h2">One Agency. Every Tool to <span class="red">Grow Your Brand.</span></h2></div>
+<p class="note">Creative and performance under one roof — no hand-offs, no excuses. Just work that brings customers.</p>
+</div>
+<div class="svc">
+<article class="sc hot rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"></path></svg></div><h3>Performance Marketing</h3><p>Meta &amp; Google ads that bring leads and sales — not just likes.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></div><h3>Social Media Management</h3><p>Turn your socials into a hive of attention, every single day.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z"></path></svg></div><h3>Ad Creatives</h3><p>Bold statics and carousels that stop thumbs and start sales.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="15" height="14" rx="3"></rect><path d="M17 10l5-3v10l-5-3"></path></svg></div><h3>Reels &amp; Video Ads</h3><p>Scripts, shoots and edits that hook in 3 seconds flat.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v10M7 12h10"></path></svg></div><h3>Branding &amp; Identity</h3><p>Logo, colours and voice that make you unforgettable.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18l-7 8v6l-4 2v-8z"></path></svg></div><h3>Landing Pages &amp; Funnels</h3><p>Mobile-first pages that turn clicks into paying customers.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"></circle><path d="M2 21c0-4 3-7 7-7s7 3 7 7M17 4a4 4 0 010 8M22 21c0-3-2-5.5-4-6.5"></path></svg></div><h3>Influencer Marketing</h3><p>The right creators, the right deals — reach that sells.</p></article>
+<article class="sc rv"><div class="sc-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-5-5"></path></svg></div><h3>SEO &amp; Google Presence</h3><p>Get found on Google and Maps when buyers are searching.</p></article>
+</div>
+</div>
+</section>
+
+<section class="sec dark" id="work">
+<div class="wrap">
+<div class="head rv">
+<div><p class="kick">Our Work</p><h2 class="h2">Ideas That <span class="red">Stop the Scroll.</span></h2></div>
+<p class="note">Topical, bold and impossible to ignore. A peek at the creatives we make every week.</p>
+</div>
+</div>
+<div class="reel">
+<div class="rtrack">
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c3.webp" alt="Chameleon post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c4.webp" alt="Navratri post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r1c3.webp" alt="We understand minds post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r1c1.webp" alt="Kachori samosa post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r1c4.webp" alt="Hive of attention post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c5.webp" alt="Marketing ninja post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c1.webp" alt="We generate revenue post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c0.webp" alt="Ganesh Chaturthi post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c3.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c4.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r1c3.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r1c1.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r1c4.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c5.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c1.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c0.webp" alt=""></div>
+</div>
+</div>
+<div class="reel r2">
+<div class="rtrack">
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c2.webp" alt="Be different wolf post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c3.webp" alt="Janmashtami post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c5.webp" alt="Rakshabandhan post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r3c1.webp" alt="Kuchu puchu post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r3c3.webp" alt="No limits post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r3c5.webp" alt="Stronger post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c0.webp" alt="Marketing is post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c2.webp" alt="Sales is post"></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c2.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c3.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r2c5.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r3c1.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r3c3.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r3c5.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c0.webp" alt=""></div>
+<div class="ig"><img loading="lazy" decoding="async" src="assets/r0c2.webp" alt=""></div>
+</div>
+</div>
+<div class="wrap" style="display: flex; justify-content: center; margin-top: 46px">
+<a class="btn" href="https://www.instagram.com/mindsmedia.co/" target="_blank" rel="noopener">Follow @mindsmedia.co on Instagram</a>
+</div>
+</section>
+
+<section class="sec vids" id="testimonials">
+<div class="wrap">
+<div class="head rv">
+<div><p class="kick">Client Testimonials</p><h2 class="h2">Don't Take Our Word. <span class="blk">Hear It From Our Clients.</span></h2></div>
+<p class="note">Real business owners. Real results. Hear what it's like to grow with Minds Media.</p>
+</div>
+<div class="vgrid">
+<div class="vcard rv"><video src="assets/testimonial-1.mp4" poster="assets/testimonial-poster.webp" controls playsinline preload="none"></video></div>
+<div class="vcta rv">
+<a class="btn btn-dark" href="https://wa.me/918319954280?text=Hi%20Minds%20Media%2C%20I%20saw%20your%20client%20testimonial.%20I%20want%20results%20like%20this%20for%20my%20brand." target="_blank" rel="noopener">I Want Results Like This</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="process">
+<div class="wrap">
+<div class="head rv">
+<div><p class="kick">How We Work</p><h2 class="h2">From Idea to Income in <span class="red">4 Simple Steps.</span></h2></div>
+<p class="note">No guesswork. One proven system — run, measured and repeated until your brand scales.</p>
+</div>
+<div class="steps">
+<div class="st rv"><div class="st-n">01</div><h3>Decode</h3><p>We study your audience, competitors and offer to find what makes people buy.</p></div>
+<div class="st rv"><div class="st-n">02</div><h3>Create</h3><p>Hooks, scripts, statics and reels built to stop the scroll and stick in the mind.</p></div>
+<div class="st rv"><div class="st-n">03</div><h3>Launch</h3><p>Campaigns go live with clean tracking — so every lead and sale is counted.</p></div>
+<div class="st rv"><div class="st-n">04</div><h3>Scale</h3><p>We cut what doesn't work and put budget behind winners. Every week.</p></div>
+</div>
+<div class="motto rv"><span>Strategy First</span><em>/</em><span>Creative Second</span><em>/</em><span>Results Always</span></div>
+</div>
+</section>
+
+<section class="sec dark" id="results">
+<div class="wrap">
+<div class="head rv">
+<div><p class="kick">Results</p><h2 class="h2">We Don't Just Run Ads. <span class="red">We Generate Revenue.</span></h2></div>
+</div>
+<div class="stats">
+<div class="stat rv"><b>100<span>+</span></b><p>Brands built &amp; scaled across India</p></div>
+<div class="stat rv"><b><span>₹</span>10Cr<span>+</span></b><p>Ad spend managed profitably</p></div>
+<div class="stat rv"><b>4.5<span>x</span></b><p>Average return on ad spend</p></div>
+<div class="stat rv"><b>50M<span>+</span></b><p>Views on content we created</p></div>
+</div>
+<div class="inds rv">
+<span>Real Estate</span><span>D2C &amp; E-commerce</span><span>Coaches &amp; Educators</span><span>Clinics &amp; Healthcare</span><span>Restaurants &amp; Cafés</span><span>Fashion &amp; Beauty</span><span>Startups</span><span>Local Businesses</span>
+</div>
+</div>
+</section>
+
+<section class="sec" id="founder">
+<div class="wrap fd">
+<div class="fd-pic rv">
+<div class="fd-back"></div>
+<div class="fd-badge" aria-hidden="true">
+<svg viewBox="0 0 200 200">
+<defs><path id="fdc" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"></path></defs>
+<circle cx="100" cy="100" r="99" fill="#FFFFFF"></circle>
+<text font-family="Poppins, sans-serif" font-size="16" font-weight="700" letter-spacing="4.2" fill="#0B0B0B"><textPath href="#fdc">FOUNDER • MINDS MEDIA • AI MARKETING • </textPath></text>
+</svg>
+<div class="fd-badge-core"><svg viewBox="-10 -10 320 320"><path d="M9 92 L9 297"></path><path d="M9 92 L107 189"></path><path d="M7 5 L294 295"></path><path d="M185 112 L292 5"></path><path d="M292 5 L292 192"></path></svg></div>
+</div>
+<div class="fd-stage" aria-hidden="true"><svg class="fd-m" viewBox="-10 -10 320 320"><path pathLength="1" d="M9 92 L9 297" style="animation-delay: .2s"></path><path pathLength="1" d="M9 92 L107 189" style="animation-delay: .45s"></path><path pathLength="1" d="M7 5 L294 295" style="animation-delay: .7s"></path><path pathLength="1" d="M185 112 L292 5" style="animation-delay: .95s"></path><path pathLength="1" d="M292 5 L292 192" style="animation-delay: 1.2s"></path></svg></div>
+<img loading="lazy" decoding="async" class="fd-cut" width="800" height="948" src="assets/founder.webp" alt="Yash Goswami, Founder of Minds Media">
+<div class="fd-tag"><span><b>Yash Goswami</b><small>Founder, Minds Media</small></span><svg viewBox="-10 -10 320 320" aria-hidden="true"><path d="M9 92 L9 297"></path><path d="M9 92 L107 189"></path><path d="M7 5 L294 295"></path><path d="M185 112 L292 5"></path><path d="M292 5 L292 192"></path></svg></div>
+</div>
+<div class="rv">
+<p class="kick">Meet the Founder</p>
+<h2 class="fd-name">The Mind <span>Behind</span> Minds Media.</h2>
+<p class="fd-role">Yash Goswami · AI Marketing &amp; Content Psychology</p>
+<p class="fd-bio">Yash started Minds Media with one belief — marketing works when you understand how people think. He blends content psychology with AI-powered creative to build brands people notice, remember and buy from. He cracked the code before AI went mainstream.</p>
+<div class="fd-chips">
+<span><i></i>10K+ Videos Created</span>
+<span><i></i>100+ Brands Built &amp; Scaled</span>
+<span><i></i>Content Psychology</span>
+<span><i></i>AI Marketing</span>
+</div>
+<blockquote class="fd-quote">
+<span class="fd-q" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M4 18v-5c0-4 2-7 6-8l1 2c-2 1-3 3-3 5h3v6zm9 0v-5c0-4 2-7 6-8l1 2c-2 1-3 3-3 5h3v6z"></path></svg></span>
+<p>Build a brand so true to you, it attracts clients who <em>already feel like friends.</em></p>
+<small>— Yash Goswami</small>
+</blockquote>
+<div class="ctas" style="margin-top: 30px">
+<a class="btn" href="https://calendly.com/yashgoswami627/30min">Book a Call With Yash</a>
+<a class="btn btn-out" href="https://www.instagram.com/yashofficial.co/">Follow @yashofficial.co</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="contact" style="padding: 0">
+
+<div class="wrap">
+<div class="cta rv">
+<svg class="bigm" viewBox="-10 -10 320 320" aria-hidden="true"><path d="M9 92 L9 297"></path><path d="M9 92 L107 189"></path><path d="M7 5 L294 295"></path><path d="M185 112 L292 5"></path><path d="M292 5 L292 192"></path></svg>
+<div>
+<p class="kick" style="color: #FFFFFF">Free Strategy Call</p>
+<h2 class="h2">Time Doesn't Wait. <span>Neither Should Your Growth.</span></h2>
+<p class="note">Share a few details and get a free, no-fluff growth plan built for your brand. Your competitors aren't waiting — why should you?</p>
+<span class="hour"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h12M6 22h12M7 2c0 5 10 5 10 10S7 17 7 22M17 2c0 5-10 5-10 10s10 5 10 10"></path></svg>Free 30-min call · Zero obligation</span>
+<div class="cinfo">
+<a href="https://wa.me/918319954280" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"></path></svg>+91 83199 54280</a>
+<a href="mailto:yashgoswami627@gmail.com"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E10914" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>yashgoswami627@gmail.com</a>
+</div>
+</div>
+<form class="form" aria-label="Get your free growth plan">
+<h3>Get Your Free Growth Plan</h3>
+<div class="field"><label for="rn">Your name</label><input id="rn" type="text" placeholder="Full name" ></div>
+<div class="field"><label for="rp">WhatsApp number</label><input id="rp" type="tel" placeholder="+91" ></div>
+<div class="row2">
+<div class="field"><label for="rb">Business type</label><select id="rb" ><option>Real Estate</option><option>D2C / E-commerce</option><option>Coach / Educator</option><option>Clinic / Healthcare</option><option>Local Business</option><option>Other</option></select></div>
+<div class="field"><label for="rs">Monthly ad budget</label><select id="rs" ><option>Under ₹50K</option><option>₹50K – ₹2L</option><option>₹2L – ₹10L</option><option>₹10L+</option></select></div>
+</div>
+<a class="btn" href="https://wa.me/918319954280" id="waBtn" target="_blank" rel="noopener">Get My Free Growth Plan</a>
+<p class="fnote">Your details open in WhatsApp, ready to send. We reply within 24 hours.</p>
+<a class="wa" href="https://wa.me/918319954280" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"></path></svg>Prefer WhatsApp? Chat with us now</a>
+</form>
+</div>
+</div>
+</section>
+
+<footer class="foot">
+<div class="wrap">
+<div class="foot-top">
+<img loading="lazy" decoding="async" src="assets/logo.webp" alt="Minds Media">
+<p>A creative marketing agency for brands that want to be noticed, remembered and bought.</p>
+</div>
+<div class="foot-row">
+<span>© 2026 Minds Media · India</span>
+<span><a href="https://wa.me/918319954280" target="_blank" rel="noopener">WhatsApp: +91 83199 54280</a><a href="mailto:yashgoswami627@gmail.com">yashgoswami627@gmail.com</a><a href="https://www.instagram.com/mindsmedia.co/" target="_blank" rel="noopener">Instagram @mindsmedia.co</a></span>
+</div>
+</div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/918319954280" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"></path></svg></a>
+
+</div>
+<script>
+(function(){
+  var f={n:'rn',p:'rp',b:'rb',s:'rs'};
+  function g(id){var e=document.getElementById(id);return e?e.value.trim():'';}
+  function upd(){
+    var t=['Hi Minds Media! I want a free growth plan.','Name: '+(g(f.n)||'-'),'WhatsApp: '+(g(f.p)||'-'),'Business: '+g(f.b),'Monthly ad budget: '+g(f.s)].join('\n');
+    var a=document.getElementById('waBtn'); if(a) a.href='https://wa.me/918319954280?text='+encodeURIComponent(t);
+  }
+  Object.keys(f).forEach(function(k){var e=document.getElementById(f[k]); if(e){e.addEventListener('input',upd);e.addEventListener('change',upd);}});
+  upd();
+})();
+</script>
+</body>
+</html>
